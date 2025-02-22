@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottery DApp</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Lottery DApp</h2>
+      <p><b>Manager:</b> <span id="manager">Loading...</span></p>
+      <p><b>Contract Balance:</b> <span id="balance">0</span> ETH</p>
+      <button onclick="enterLottery()">Enter Lottery (0.01 ETH)</button>
+      <button onclick="pickWinner()">Pick Winner</button>
+      <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
